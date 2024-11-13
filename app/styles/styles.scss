@@ -1,0 +1,80 @@
+* {
+    @apply font-jetbrains text-white
+}
+
+body{
+    @apply h-[100vh] flex flex-col justify-center items-center bg-black
+}
+
+.wrapper{
+    @apply flex flex-col gap-5 sm:w-[632px] justify-center
+}
+
+.mainCard{
+    @apply bg-darkGrey p-5 flex flex-col justify-center gap-5
+}
+
+.copy{
+    @apply bg-darkGrey flex flex-row justify-between p-3 px-5 rounded-sm
+}
+
+.card{
+   
+}
+
+.slider {
+    @apply h-1 w-full bg-green my-5
+}
+
+.checkBox{
+    @apply flex flex-col gap-3
+}
+
+.inputField{
+    @apply flex flex-row gap-5
+}
+
+input{
+    @apply appearance-none bg-black mt-1 border-2 border-white h-4 w-4 checked:bg-green;
+    background-image: url('/icon-check.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+}
+
+.strengthCard{
+    @apply h-12 w-full bg-black flex flex-row justify-between items-center px-5
+}
+
+.coloredBoxs{
+    @apply flex flex-row gap-1
+}
+
+.box{
+    @apply h-full w-2 flex-1
+}
+
+.emptyBox{
+    @apply h-full w-2 flex-1 bg-black border border-white 
+}
+
+.button{
+    @apply bg-green w-full h-14 flex flex-row justify-center  gap-5 place-items-center text-black hover:text-green hover:bg-darkGrey hover:border-2 hover:border-green;
+    p{
+        @apply text-black
+    }
+}
+
+.button:hover p {
+    @apply text-green 
+}
+
+.arrow{
+    @apply fill-black
+}
+
+.button:hover .arrow{
+    @apply fill-green
+}
+
+
